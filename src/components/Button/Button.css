@@ -1,0 +1,10 @@
+.MainButton{
+    background-color: #1f6bf1;
+    padding: 0.5em 1em;
+    color: #e5e0e0;
+    font-family: Arial;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}

@@ -1,0 +1,77 @@
+.HeaderWhite{
+ padding:15px 65px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.HeaderWhiteText{
+  font-size: 1rem;
+  font-family: Arial;
+  color:  #1f6bf1;
+  font-weight: bold;
+}
+
+.HeaderWhiteBurger{
+  width: 30px;
+  height:15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  border-top: 2px solid #1f6bf1;
+  border-bottom: 2px solid #1f6bf1;
+margin-right: 15px;
+}
+.HeaderBlue{
+  padding:15px 65px;
+  background-color: #1f6bf1;
+  color: #e5e0e0;
+  font-family: Arial;
+  font-size:  1rem;
+}
+.HeaderBlueIcon{
+ filter: invert();
+  width: 35px;
+  height: 35px;
+}
+.HeaderWhiteBurger::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  margin-top: 20%;
+  background-color: #1f6bf1;
+  position: absolute;
+}
+.HeaderNavigationList{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.HeaderNavigatonItem{
+  font-family: Arial;
+  font-size:  1rem;
+  list-style: none;
+  display: block;
+}
+
+.AppMain{
+  padding:15px 25px;
+}
+.MainHeader {
+  color: black;
+  font-family: Arial;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1em;
+  }
+
+.SpanMainHeader {
+  color: #1f6bf1;
+}
+
+.MainText{
+  max-width: 300px;
+  margin-bottom: 2em;
+  font-family: Arial;
+  font-size: 1 rem;
+}
+
